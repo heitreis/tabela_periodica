@@ -1,0 +1,59 @@
+box-sizing: border-box;
+margin: 0;
+
+table{
+    width: 100%;
+    height: 20vh;
+    border-collapse: collapse;
+}
+
+th, td{
+border: 1px solid;
+padding: 8px
+}
+
+.naometal { background-color: rgb(41, 167, 41);}
+.metaisalcalinos {background-color: orange;}
+.alcalinoterrosos{background-color: yellow;}
+.transicao{background-color: coral;}
+.semimetais{background-color:rgb(45, 128, 100);}
+.outros{background-color: rgb(86, 160, 149);}
+.halogenios{background-color: rgb(105, 221, 182);}
+.gases{background-color: rgb(92, 114, 240);}
+.lantanideos{background-color:rgb(1, 250, 167)}
+.actinidios{background-color: rgb(182, 132, 229);}
+
+
+.legenda{
+    margin-top:30px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:15px;
+}
+
+.item-legenda{
+    display:flex;
+    align-items:center;
+    gap:6px;
+    font-size:14px;
+}
+
+.cor{
+    width:18px;
+    height:18px;
+    border-radius:4px;
+    display:inline-block;
+}
+
+/* cores */
+
+.nao-metal{ background-color: rgb(41, 167, 41);}
+.gas-nobre{background-color: rgb(92, 114, 240);}
+.alcalino{background-color: orange;}
+.alcalino-terroso{background-color:yellow;}
+.metal-transicao{background-color: coral;}
+.pos-transicao{background-color: rgb(86, 160, 149);}
+.metaloide{background-color:rgb(45, 128, 100);}
+.lantanideo{background:#14b8a6;}
+.actinideo{background:#eb77d2;}
